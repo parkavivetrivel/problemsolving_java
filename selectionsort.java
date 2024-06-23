@@ -4,7 +4,7 @@ public class selectionsort {
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
         int[] arr = new int[n];
-        int i,j;
+        int i,j,k;
         for(i = 0;i<n;i++){
             arr[i] = s.nextInt();
         }
@@ -17,12 +17,15 @@ public class selectionsort {
                     arr[i] = arr[j];
                     arr[j] = temp;       
                 }
-
             }
-
-
         }
         System.out.println(Arrays.toString(arr));
-
+        System.out.println("check");
+        for (k = 0; k < arr.length; k++) {
+            System.out.print(arr[k] +" ");
+            
+               
+    
+        }
     }
 }
