@@ -16,6 +16,10 @@ public class arraylist {
         list.remove(0); // deleting the element in the arraylist.
         list.clear(); // deleting all the elemnet in the arraylist.
         list.size(); // size of the arraylist.
+        Collections.sort(list); // sorting the arraylist
+        System.out.println(list);
+        Collections.sort(list,Collections.reverseOrder()); // sorting the list in reverse order.
+        System.out.println(list);
     }
     
 }
